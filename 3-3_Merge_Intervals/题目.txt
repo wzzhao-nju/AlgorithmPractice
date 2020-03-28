@@ -1,0 +1,27 @@
+Merge intervals
+Description
+Given a set of n intervals, merge them and output the result.
+
+Input
+The first line contains an integer n (1≤n≤40,000). In the next n lines, each line contains two integers: l and r(0≤l, r≤10^100), indicating that there is an interval [l, r].
+
+Output
+Output the merge result as a sequence of non-overlapping intervals in order.
+
+Sample Input 1 
+4
+1 5
+0 1
+6 10
+8 9
+
+Sample Output 1
+0 5
+6 10
+
+Hint
+注意题目数据的范围，32位或64位的都不够，需要用string表示；
+
+题目没说l < r，因此还要考虑下l >= r 的情况；
+
+最后输出表示的时候都是前面的数不大于于后面的数，但是类似 [1 1] 两个数相同的有可能出现

@@ -1,0 +1,19 @@
+Selection problem
+
+Description
+实现BG书上5.4.2所述线性选择算法：给定n个整数（无序且不重复），每个整数的大小以及n的大小都不超过int的表示范围，求出这n个数中第k小的数，k<=n 且 k>=1.
+
+Input
+第1行给出整数个数n
+第2行给出的数k表示要求的第k小的数
+第3行给出n个整数，每个整数用空格隔开
+
+Output
+第k小的整数
+
+Sample Input 1 
+5
+2
+3 6 50 2 1
+Sample Output 1
+2

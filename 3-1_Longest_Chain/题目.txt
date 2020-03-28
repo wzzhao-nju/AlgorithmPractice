@@ -1,0 +1,19 @@
+Description
+There are n single-list nodes labeled 1...n. Each node has a successor pointer, which could be NULL. Your task is to calculate the length of the longest chain from those formed by those nodes. The input list is guaranteed to contain no loop or cycle.
+
+Input
+The input consists of two lines. The first line contains an integer n (1<=n<=10^5). The second line contains nintegers s1, s2, бн, sn, in which si (0<=si<=n) indicates that the successor of the i-th node is si; in particular,si=0 means that the successor pointer of the i-th node is NULL.
+
+Output
+Print the length of the longest chain.
+
+
+Sample Input 1 
+6
+2 3 0 1 0 3
+
+Sample Output 1
+4
+
+Hint
+The longest chain in the sample: 4->1->2->3
